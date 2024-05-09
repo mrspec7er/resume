@@ -4,7 +4,7 @@ import projects from "@/app/data/projects.json";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-12 max-w-screen-lg mx-auto">
+    <main className="flex flex-col items-center justify-between px-6 py-12 max-w-screen-lg mx-auto">
       <Navbar />
       <Introduction />
       <Projects />
@@ -17,7 +17,7 @@ export function Introduction() {
     <div className="mt-10 mb-7 text-gray-200">
       <p>
         Hi there, I'm <span className="font-semibold">Sandi</span>. I'm a
-        software developer, currently working on as{" "}
+        software developer, currently working as a{" "}
         <span className="font-semibold">backend engineer</span> to earn a
         living. I enjoy solving problems and building new things. My main focus
         is on creating <span className="font-semibold">robust</span>,{" "}
