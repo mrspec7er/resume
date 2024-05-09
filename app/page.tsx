@@ -1,17 +1,20 @@
 import Navbar from "@/components/ui/navbar";
+import { FiExternalLink } from "react-icons/fi";
+import projects from "@/app/data/projects.json";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-12 max-w-screen-lg mx-auto">
       <Navbar />
       <Introduction />
+      <Projects />
     </main>
   );
 }
 
 export function Introduction() {
   return (
-    <div className="my-10 text-gray-200">
+    <div className="mt-10 mb-7 text-gray-200">
       <p>
         Hi there, I'm <span className="font-semibold">Sandi</span>. I'm a
         software developer, currently working on as{" "}
@@ -73,6 +76,40 @@ export function Introduction() {
           </li>
         </ul>
       </div>
+    </div>
+  );
+}
+
+export function Projects() {
+  return (
+    <div className="mb-10 text-gray-200">
+      <p className="font-semibold text-xl text-center">Projects</p>
+      {projects.map((p) => (
+        <div className="pb-3" key={p.name}>
+          <a
+            className="font-medium text-lg pt-2 pb-1 flex gap-2 items-center hover:text-teal-500"
+            target="_blank"
+            href={p.url}
+          >
+            <span>{p.name}</span>
+            <div className="text-teal-600">
+              <FiExternalLink />
+            </div>
+          </a>
+          <p className="indent-5">{p.desc}</p>
+          <div className="flex flex-wrap gap-3 text-teal-600 mt-3 text-sm font-semibold">
+            {p.techStack.map((t) => (
+              <a
+                key={t.name}
+                className="hover:underline underline-offset-4"
+                href={t.url}
+              >
+                {t.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

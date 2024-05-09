@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Bricks",
+    "url": "https://www.bricksapp.io/",
+    "desc": "Bricks app is the agile collaborative app designed specifically for the Architecture, Engineering, and Construction industry. It helps AEC teams to collaborate more efficiently thanks to BIM collaboration and Agile methods. What makes Bricks different from other project management app is its integration with BIM360, IFC model file, BCF, and other BIM integrations.",
+    "techStack": [
+      {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "NestJS",
+        "url": "https://nestjs.com/"
+      },
+      {
+        "name": "Angular",
+        "url": "https://angular.io/"
+      },
+      {
+        "name": "Stripe",
+        "url": "https://stripe.com/payments"
+      },
+      {
+        "name": "MongoDB",
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "name": "GraphQL",
+        "url": "https://graphql.org/"
+      }
+    ]
+  },
+  {
+    "name": "License Request",
+    "url": "https://github.com/mrspec7er/license-request",
+    "desc": "License Request is a simplified licensing platform designed to streamline and manage the licensing process. With a highly customizable and easy-to-scale architecture, License Request empowers institution or organization to efficiently manage licenses according to user unique requirements.",
+    "techStack": [
+      {
+        "name": "Go",
+        "url": "https://go.dev/"
+      },
+      {
+        "name": "Microservice",
+        "url": "https://microservices.io/"
+      },
+      {
+        "name": "RabbitMQ",
+        "url": "https://www.rabbitmq.com/"
+      },
+      {
+        "name": "Redis",
+        "url": "https://redis.io/"
+      },
+      {
+        "name": "Oauth2",
+        "url": "https://oauth.net/2/"
+      },
+      {
+        "name": "Integration Test",
+        "url": "https://katalon.com/resources-center/blog/integration-testing"
+      }
+    ]
+  },
+  {
+    "name": "Prohita",
+    "url": "https://prohita.com/",
+    "desc": "Prohita, a comprehensive app designed to streamline client data management for law firms. With its intuitive interface and robust functionality, Prohita simplifies the process of organizing client information, ensuring efficiency, and managing notification for a legal practice. Prohita revolutionizes the way law firms manage client data, empowering legal professionals to focus on what they do best—delivering exceptional legal services.",
+    "techStack": [
+      {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "Prisma",
+        "url": "https://www.prisma.io/"
+      },
+      {
+        "name": "React",
+        "url": "https://react.dev/"
+      },
+      {
+        "name": "Flowbite",
+        "url": "https://flowbite.com/"
+      },
+      {
+        "name": "Quill",
+        "url": "https://quilljs.com/"
+      },
+      {
+        "name": "Tailwind",
+        "url": "https://tailwindcss.com/"
+      }
+    ]
+  }
+]
