@@ -1,6 +1,7 @@
 import Navbar from "@/components/ui/navbar";
 import { FiExternalLink } from "react-icons/fi";
 import projects from "@/app/data/projects.json";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,15 +17,40 @@ export function Introduction() {
   return (
     <div className="mt-10 mb-7 text-gray-200">
       <p>
-        Hi there, I'm <span className="font-semibold">Sandi</span>. I'm a
-        software developer, currently working as a{" "}
-        <span className="font-semibold">backend engineer</span> to earn a
-        living. I enjoy solving problems and building new things. My main focus
-        is on creating <span className="font-semibold">robust</span>,{" "}
-        <span className="font-semibold">scalable</span>, and{" "}
-        <span className="font-semibold">idiomatic</span> software to improve our
-        daily lives. Outside of writing code, I'm usually weight lifting,
-        reading books, or playing casual games.
+        Hi there, I'm{" "}
+        <span className="font-semibold text-teal-600">
+          <Link
+            className="hover:underline underline-offset-4"
+            href="https://linktr.ee/kusumasandi"
+          >
+            Sandi
+          </Link>
+        </span>
+        . I'm a dedicated software developer, working as a{" "}
+        <span className="font-semibold text-teal-600">
+          <a
+            target="_blank"
+            className="hover:underline underline-offset-4"
+            href="https://www.linkedin.com/in/kusuma-sandi-9646a1208/"
+          >
+            backend engineer
+          </a>
+        </span>{" "}
+        for a living. I enjoy solving problems and building new things. My main
+        focus is on creating robust scalable, and idiomatic software to improve
+        our daily lives. Outside of writing code, I maintain a dynamic
+        lifestyle, engaging in weightlifting to stay active, reading books, and
+        playing casual{" "}
+        <span className="font-semibold text-teal-600">
+          <a
+            href="https://steamcommunity.com/profiles/76561198861495468/"
+            className="hover:underline underline-offset-4"
+            target="_blank"
+          >
+            games
+          </a>
+        </span>{" "}
+        for relaxation.
       </p>
       <div className="my-5">
         <p className="font-semibold">Education: </p>
@@ -32,7 +58,7 @@ export function Introduction() {
           <li>
             Bachelor of Computer Science -{" "}
             <a
-              className="font-semibold"
+              className="font-semibold text-teal-600 hover:underline underline-offset-4"
               target="_blank"
               href="https://if.unud.ac.id/"
             >
@@ -41,9 +67,9 @@ export function Introduction() {
             </a>
           </li>
           <li>
-            Fullstack Web Bootcamp-{" "}
+            Fullstack Web Bootcamp -{" "}
             <a
-              className="font-semibold"
+              className="font-semibold text-teal-600 hover:underline underline-offset-4"
               target="_blank"
               href="https://www.binaracademy.com/"
             >
@@ -59,19 +85,25 @@ export function Introduction() {
         <ul className="list-disc ml-7">
           <li>
             <span>Nov, 2022 - Aug, 2023</span>,{" "}
-            <span className="font-semibold">Freelance Fullstack Developer</span>{" "}
-            -{" "}
-            <a target="_blank" href="https://maiharta.com/home">
+            <span>Freelance Fullstack Developer</span> -
+            <a
+              target="_blank"
+              className="font-semibold text-teal-600 hover:underline underline-offset-4"
+              href="https://maiharta.com/home"
+            >
               {" "}
               CV. Maiharta
             </a>
           </li>
           <li>
-            <span>Mei, 2023 - Present</span>,{" "}
-            <span className="font-semibold">Backend Engineer</span> -{" "}
-            <a target="_blank" href="https://elkacode.com/">
+            <span>Mei, 2023 - Present</span>, <span>Backend Engineer</span> -
+            <a
+              target="_blank"
+              className="font-semibold text-teal-600 hover:underline underline-offset-4"
+              href="https://elkacode.com/"
+            >
               {" "}
-              CV. Elka Code
+              CV. Elka Code{" "}
             </a>
           </li>
         </ul>
