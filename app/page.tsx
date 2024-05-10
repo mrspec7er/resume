@@ -1,16 +1,18 @@
 import Navbar from "@/components/ui/navbar";
 import { FiExternalLink } from "react-icons/fi";
+import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 import projects from "@/app/data/projects.json";
 import blog from "@/app/data/blog.json";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between px-6 py-12 max-w-screen-lg mx-auto">
+    <main className="flex flex-col items-center justify-between px-6 pt-12 max-w-screen-lg mx-auto">
       <Navbar />
       <Introduction />
       <Projects />
       <Blog />
+      <Footer />
     </main>
   );
 }
@@ -173,5 +175,44 @@ export function Blog() {
         </div>
       ))}
     </div>
+  );
+}
+
+export function Footer() {
+  return (
+    <footer className="w-full">
+      <div className="md:flex md:items-center md:justify-between">
+        <span className="text-base text-gray-500 dark:text-gray-300 sm:text-center">
+          2024 Kusuma Sandi
+        </span>
+        <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+          <a
+            href="https://github.com/mrspec7er"
+            target="_blank"
+            className="text-gray-400 text-2xl hover:text-gray-100"
+          >
+            <AiFillGithub />
+            <span className="sr-only">GitHub</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kusuma-sandi-9646a1208/"
+            target="_blank"
+            className="text-gray-400 text-2xl hover:text-gray-100"
+          >
+            <AiFillLinkedin />
+            <span className="sr-only">LinkedIn</span>
+          </a>
+          <a
+            href="mailto:wijayakusumasandi@gmail.com"
+            target="_blank"
+            className="text-gray-400 text-2xl hover:text-gray-100"
+          >
+            <AiOutlineMail />
+            <span className="sr-only">Email</span>
+          </a>
+        </div>
+      </div>
+      <hr className="h-px my-3 bg-gray-500 border-0" />
+    </footer>
   );
 }
