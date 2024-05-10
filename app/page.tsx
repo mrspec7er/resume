@@ -1,6 +1,7 @@
 import Navbar from "@/components/ui/navbar";
 import { FiExternalLink } from "react-icons/fi";
 import projects from "@/app/data/projects.json";
+import blog from "@/app/data/blog.json";
 import Link from "next/link";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Introduction />
       <Projects />
+      <Blog />
     </main>
   );
 }
@@ -140,6 +142,34 @@ export function Projects() {
               </a>
             ))}
           </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export function Blog() {
+  return (
+    <div className="mb-10 text-gray-300">
+      <p className="font-semibold text-xl text-center pb-2">Blog</p>
+      {blog.map((b) => (
+        <div className="pb-3" key={b.id}>
+          <a className="text-lg pt-2 pb-1" target="_blank" href={b.url}>
+            <p className="hover:text-teal-500 font-medium hover:underline underline-offset-4 text-gray-100">
+              {b.title}
+            </p>
+            <div className="flex gap-3 text-sm font-semibold pb-1 ml-1 text-teal-600">
+              Keyword:
+              {b.keyword.map((k, i) => (
+                <span className="hover:underline underline-offset-4" key={k}>
+                  {k}
+                  {i !== b.keyword.length - 1 ? <span>,</span> : null}
+                </span>
+              ))}
+            </div>
+            <p className="indent-5 hover:brightness-125">{b.desc}</p>
+          </a>
+          <hr className="bg-white mb-3 mt-1 mr-12" />
         </div>
       ))}
     </div>

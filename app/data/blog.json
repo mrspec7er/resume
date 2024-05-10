@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ensuring-your-app-robustness",
+    "title": "Ensuring Your App's Robustness",
+    "desc": "We've entered an era where software can be immensely critical, often forming the backbone of vast business processes. Nowadays, many individuals rely on apps for their livelihoods. Developing a robust app capable...",
+    "publishAt": "May 5, 2024",
+    "keyword": ["optimization", "performance", "efficiency"],
+    "url": "/blogs/ensuring-your-app-robustness"
+  },
+  {
+    "id": "go-unique-approach",
+    "title": "Exploring the Unique Approach of Go Programming Language",
+    "desc": "Go, a programming language crafted by Google, stands as a testament to the pursuit of enhanced productivity and seamless collaboration in software development. Its inception was driven by the imperative to accelerate...",
+    "publishAt": "Mar 29, 2024",
+    "keyword": ["go", "concurrency", "programming"],
+    "url": "/blogs/go-unique-approach"
+  }
+]
