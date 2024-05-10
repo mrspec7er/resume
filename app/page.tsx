@@ -160,7 +160,7 @@ export function Blog() {
             <p className="hover:text-teal-500 font-medium hover:underline underline-offset-4 text-gray-100">
               {b.title}
             </p>
-            <div className="flex gap-3 text-sm font-semibold pb-1 ml-1 text-teal-600">
+            <div className="flex flex-wrap gap-3 text-sm font-semibold pb-1 ml-1 text-teal-600">
               Keyword:
               {b.keyword.map((k, i) => (
                 <span className="hover:underline underline-offset-4" key={k}>
