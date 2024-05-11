@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="w-full flex md:flex-row flex-col-reverse gap-y-8 justify-between font-semibold text-teal-600">
       <Link href={"/#introduction"} className="flex items-center gap-3">
         <Avatar>
-          <AvatarImage src="/profile.png" />
+          <AvatarImage src="images/profile.png" />
           <AvatarFallback>KS</AvatarFallback>
         </Avatar>
         <p className="text-xl hover:underline underline-offset-4">

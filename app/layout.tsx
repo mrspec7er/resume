@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="images/favicon.ico" sizes="any" />
       <body className={inter.className + " bg-zinc-900 text-gray-200"}>
         {children}
       </body>
