@@ -22,6 +22,7 @@ export default function Blog() {
   };
   return (
     <main className="flex flex-col items-center justify-between px-6 md:pt-12 pt-6 max-w-screen-lg mx-auto">
+      <Navbar />
       <motion.div
         className="card-container mt-10"
         initial="offscreen"

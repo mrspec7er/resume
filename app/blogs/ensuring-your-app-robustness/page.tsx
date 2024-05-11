@@ -1,6 +1,7 @@
 "use client";
 
 import { Footer } from "@/components/ui/footer";
+import Navbar from "@/components/ui/navbar";
 import { Variants, motion } from "framer-motion";
 
 export default function Blog() {
@@ -21,6 +22,7 @@ export default function Blog() {
   };
   return (
     <main className="flex flex-col items-center justify-between px-6 md:pt-12 pt-6 max-w-screen-lg mx-auto">
+      <Navbar />
       <motion.div
         className="card-container"
         initial="offscreen"
