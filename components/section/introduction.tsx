@@ -40,13 +40,13 @@ export function Introduction() {
             </span>
             . I'm a dedicated software developer, working as a{" "}
             <span className="font-semibold text-teal-600">
-              <a
+              <Link
                 target="_blank"
                 className="hover:underline underline-offset-4"
                 href="https://www.linkedin.com/in/kusuma-sandi-9646a1208/"
               >
                 backend engineer
-              </a>
+              </Link>
             </span>{" "}
             for a living. I enjoy solving problems and building new things. My
             main focus is on creating robust scalable, and idiomatic software to
@@ -54,13 +54,13 @@ export function Introduction() {
             dynamic lifestyle, engaging in weightlifting to stay active, reading
             books, and playing casual{" "}
             <span className="font-semibold text-teal-600">
-              <a
+              <Link
                 href="https://steamcommunity.com/profiles/76561198861495468/"
                 className="hover:underline underline-offset-4"
                 target="_blank"
               >
                 games
-              </a>
+              </Link>
             </span>{" "}
             for relaxation.
           </p>
@@ -69,25 +69,25 @@ export function Introduction() {
             <ul className="list-disc ml-7">
               <li>
                 Bachelor of Computer Science -{" "}
-                <a
+                <Link
                   className="font-semibold text-teal-600 hover:underline underline-offset-4"
                   target="_blank"
                   href="https://if.unud.ac.id/"
                 >
                   {" "}
                   Udayana University
-                </a>
+                </Link>
               </li>
               <li>
                 Fullstack Web Bootcamp -{" "}
-                <a
+                <Link
                   className="font-semibold text-teal-600 hover:underline underline-offset-4"
                   target="_blank"
                   href="https://www.binaracademy.com/"
                 >
                   {" "}
                   Binar Academy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -98,26 +98,26 @@ export function Introduction() {
               <li>
                 <span>Nov, 2022 - Aug, 2023</span>,{" "}
                 <span>Freelance Fullstack Developer</span> -
-                <a
+                <Link
                   target="_blank"
                   className="font-semibold text-teal-600 hover:underline underline-offset-4"
                   href="https://maiharta.com/home"
                 >
                   {" "}
                   CV. Maiharta
-                </a>
+                </Link>
               </li>
               <li>
                 <span>Mei, 2023 - Present</span>, <span>Backend Engineer</span>{" "}
                 -
-                <a
+                <Link
                   target="_blank"
                   className="font-semibold text-teal-600 hover:underline underline-offset-4"
                   href="https://elkacode.com/"
                 >
                   {" "}
                   CV. Elka Code{" "}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

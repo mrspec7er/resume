@@ -2,6 +2,7 @@
 import { FiExternalLink } from "react-icons/fi";
 import projects from "@/app/data/projects.json";
 import { Variants, motion } from "framer-motion";
+import Link from "next/link";
 
 export function Projects() {
   const cardVariants: Variants = {
@@ -36,7 +37,7 @@ export function Projects() {
               <p className="font-semibold text-xl text-center">Projects</p>
             ) : null}
             <div className="pb-3">
-              <a
+              <Link
                 className="font-medium text-lg pt-2 pb-1 flex gap-2 items-center hover:text-teal-500"
                 target="_blank"
                 href={p.url}
@@ -45,17 +46,17 @@ export function Projects() {
                 <div className="text-teal-600">
                   <FiExternalLink />
                 </div>
-              </a>
+              </Link>
               <p className="indent-5 text-justify">{p.desc}</p>
               <div className="flex flex-wrap gap-3 text-teal-600 mt-3 text-sm font-semibold">
                 {p.techStack.map((t) => (
-                  <a
+                  <Link
                     key={t.name}
                     className="hover:underline underline-offset-4"
                     href={t.url}
                   >
                     {t.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
               <hr className="h-px my-2 bg-gray-300 border-0" />

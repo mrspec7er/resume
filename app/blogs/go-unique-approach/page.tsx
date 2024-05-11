@@ -1,6 +1,8 @@
 import { Footer } from "@/components/ui/footer";
 import Navbar from "@/components/ui/navbar";
 import { Metadata } from "next";
+import Link from "next/link";
+import { MdOutlineKeyboardBackspace } from "react-icons/md";
 
 export const metadata: Metadata = {
   title: "Exploring the Unique Approach of Go Programming Language",
@@ -17,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function Blog() {
   return (
-    <main className="flex flex-col items-center justify-between px-6 md:pt-12 pt-6 max-w-screen-lg mx-auto">
+    <main className="flex flex-col justify-between px-6 md:pt-12 pt-6 max-w-screen-lg mx-auto">
       <Navbar />
 
       <h2 className="text-center text-2xl font-semibold mt-10">
@@ -209,20 +211,32 @@ export default function Blog() {
         <ul className="list-decimal ml-5">
           <li>
             "Go Programming Language (Introduction) - geeksforgeeks Available at{" "}
-            <a
+            <Link
               className="text-teal-600"
               href="https://www.geeksforgeeks.org/go-programming-language-introduction/"
             >
               link
-            </a>
+            </Link>
           </li>
           <li>
             "Effective Go" - go.dev. Available at{" "}
-            <a className="text-teal-600" href="https://go.dev/doc/effective_go">
+            <Link
+              className="text-teal-600"
+              href="https://go.dev/doc/effective_go"
+            >
               link
-            </a>
+            </Link>
           </li>
         </ul>
+      </div>
+      <div className="mb-5">
+        <Link
+          className="flex items-center gap-3 text-teal-600 hover:underline underline-offset-4 mx-3"
+          href={"/"}
+        >
+          <MdOutlineKeyboardBackspace />
+          <span>back to main page</span>
+        </Link>
       </div>
       <Footer />
     </main>
