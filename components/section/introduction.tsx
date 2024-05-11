@@ -28,7 +28,7 @@ export function Introduction() {
       <div className="splash" />
       <motion.div className="card" variants={cardVariants}>
         <div className="mt-10 mb-7 text-gray-200">
-          <p>
+          <p className="text-justify">
             Hi there, I'm{" "}
             <span className="font-semibold text-teal-600">
               <Link

@@ -20,7 +20,7 @@ export function Blog() {
     },
   };
   return (
-    <div className="mb-10 text-gray-300">
+    <div id="blog" className="mb-10 text-gray-300">
       {blog.map((b, i) => (
         <motion.div
           key={b.id}
@@ -32,10 +32,10 @@ export function Blog() {
           <div className="splash" />
           <motion.div className="card" variants={cardVariants}>
             {i === 0 ? (
-              <p className="font-semibold text-xl text-center pb-2">Blog</p>
+              <p className="font-semibold text-xl text-center pb-3">Blog</p>
             ) : null}
             <div className="pb-3">
-              <a className="text-lg pt-2 pb-1" target="_blank" href={b.url}>
+              <a className="pt-2 pb-1" target="_blank" href={b.url}>
                 <p className="hover:text-teal-500 font-medium hover:underline underline-offset-4 text-gray-100">
                   {b.title}
                 </p>
@@ -51,9 +51,11 @@ export function Blog() {
                     </span>
                   ))}
                 </div>
-                <p className="indent-5 hover:brightness-125">{b.desc}</p>
+                <p className="indent-5 hover:brightness-125 text-justify">
+                  {b.desc}
+                </p>
               </a>
-              <hr className="bg-white mb-3 mt-1 mr-12" />
+              <hr className="h-px my-2 bg-gray-300 border-0" />
             </div>
           </motion.div>
         </motion.div>

@@ -7,7 +7,7 @@ import { Blog } from "@/components/section/blog";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between px-6 pt-12 max-w-screen-lg mx-auto">
+    <main className="flex flex-col items-center justify-between px-6 md:pt-12 pt-6 max-w-screen-lg mx-auto">
       <Navbar />
       <Introduction />
       <Projects />
@@ -19,12 +19,12 @@ export default function Home() {
 
 export function Footer() {
   return (
-    <footer className="w-full">
+    <footer id="contact" className="w-full">
       <div className="md:flex md:items-center md:justify-between">
         <span className="text-base text-gray-500 dark:text-gray-300 sm:text-center">
-          2024 Kusuma Sandi
+          Kusuma Sandi
         </span>
-        <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+        <div className="flex justify-end mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
           <a
             href="https://github.com/mrspec7er"
             target="_blank"
