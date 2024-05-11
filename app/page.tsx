@@ -3,7 +3,7 @@ import Navbar from "@/components/ui/navbar";
 import { Introduction } from "@/components/section/introduction";
 import { Projects } from "@/components/section/project";
 import { Blog } from "@/components/section/blog";
-import { Footer } from "@/components/section/footer";
+import { Footer } from "@/components/ui/footer";
 
 export default function Home() {
   return (

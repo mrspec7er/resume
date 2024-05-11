@@ -1,6 +1,6 @@
 "use client";
 
-import { Footer } from "@/components/section/footer";
+import { Footer } from "@/components/ui/footer";
 import { Variants, motion } from "framer-motion";
 
 export default function Blog() {
