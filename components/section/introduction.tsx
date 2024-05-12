@@ -29,7 +29,7 @@ export function Introduction() {
       <motion.div className="card" variants={cardVariants}>
         <div className="mt-10 mb-7 text-gray-200">
           <p className="text-justify">
-            Hi there, I'm{" "}
+            Hi there, I&apos;m{" "}
             <span className="font-semibold text-teal-600">
               <Link
                 className="hover:underline underline-offset-4"
@@ -38,7 +38,7 @@ export function Introduction() {
                 Sandi
               </Link>
             </span>
-            . I'm a dedicated software developer, working as a{" "}
+            . I&apos;m a dedicated software developer, working as a{" "}
             <span className="font-semibold text-teal-600">
               <Link
                 target="_blank"
