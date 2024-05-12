@@ -22,7 +22,7 @@ export function Projects() {
     },
   };
   return (
-    <div id="project" className="mb-10 text-gray-200">
+    <div id="project" className="mb-10 text-gray-300">
       {projects.map((p, i) => (
         <motion.div
           key={p.name}
@@ -38,7 +38,7 @@ export function Projects() {
             ) : null}
             <div className="pb-3">
               <Link
-                className="font-medium text-lg pt-2 pb-1 flex gap-2 items-center hover:text-teal-500"
+                className="font-medium text-lg pt-2 pb-1 flex gap-2 items-center hover:text-teal-500 hover:underline underline-offset-4 text-gray-100"
                 target="_blank"
                 href={p.url}
               >
@@ -47,7 +47,11 @@ export function Projects() {
                   <FiExternalLink />
                 </div>
               </Link>
-              <p className="indent-5 text-justify">{p.desc}</p>
+              <Link href={p.url} target="_blank">
+                <p className="indent-5 text-justify hover:text-gray-100">
+                  {p.desc}
+                </p>
+              </Link>
               <div className="flex flex-wrap gap-3 text-teal-600 mt-3 text-sm font-semibold">
                 {p.techStack.map((t) => (
                   <Link
