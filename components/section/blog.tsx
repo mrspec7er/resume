@@ -37,9 +37,12 @@ export function Blog() {
             ) : null}
             <div className="pb-3">
               <Link className="pt-2 pb-1" href={b.url}>
-                <p className="hover:text-teal-500 font-medium hover:underline underline-offset-4 text-gray-100">
-                  {b.title}
-                </p>
+                <div className="flex justify-between">
+                  <span className="hover:text-teal-500 font-medium hover:underline underline-offset-4 text-gray-100">
+                    {b.title}
+                  </span>
+                  <span className="text-sm">{b.publishAt}</span>
+                </div>
                 <div className="flex flex-wrap gap-3 text-sm font-semibold pb-1 ml-1 text-teal-600">
                   Keyword:
                   {b.keyword.map((k, i) => (

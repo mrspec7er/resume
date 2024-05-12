@@ -25,7 +25,8 @@ export default function Blog() {
       <h2 className="text-center text-2xl font-semibold mt-10">
         Exploring the Unique Approach of Go Programming Language
       </h2>
-      <div className="mt-10 mb-32 text-gray-200 text-lg">
+      <p className="text-end mt-5">Mar 29, 2024</p>
+      <div className="mt-7 mb-32 text-gray-200 text-lg">
         <p className="indent-5 text-justify">
           Go, a programming language crafted by Google, stands as a testament to
           the pursuit of enhanced productivity and seamless collaboration in

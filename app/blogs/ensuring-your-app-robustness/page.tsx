@@ -24,7 +24,8 @@ export default function Blog() {
       <h2 className="text-center text-2xl font-semibold mt-10">
         Ensuring Your App&apos;s Robustness
       </h2>
-      <div className="mt-10 mb-32 text-gray-200 text-lg">
+      <p className="text-end mt-5">May 5, 2024</p>
+      <div className="mt-7 mb-32 text-gray-200 text-lg">
         <p className="indent-5 text-justify">
           We&apos;ve entered an era where software can be immensely critical,
           often forming the backbone of vast business processes. Nowadays, many
