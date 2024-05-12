@@ -16,4 +16,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can look at source code at `app` folder. and all of the reusable components in `components` folder to modify the code base.
+You can look at source code in `app` folder. and all of the reusable components is in `components` folder to modify the code base.
