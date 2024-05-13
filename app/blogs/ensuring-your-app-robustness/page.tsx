@@ -39,7 +39,9 @@ export default function Blog() {
           in meeting the demands of modern digital business requirements.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Performance Matters</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Performance Matters
+        </p>
         <p className="indent-5 text-justify">
           In server-side applications, performance is one of the most important
           factors to consider when aiming to handle high-traffic apps. Many
@@ -69,7 +71,7 @@ export default function Blog() {
           understand it [1].
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
           Creating the Right Data Structures
         </p>
         <p className="indent-5 text-justify">
@@ -90,7 +92,9 @@ export default function Blog() {
           reduce complexity while meeting all business requirements.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Query Optimization</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Query Optimization
+        </p>
         <p className="indent-5 text-justify">
           Query optimization plays a crucial role in improving the performance
           of database systems, enabling efficient data processing and analytics.
@@ -114,7 +118,7 @@ export default function Blog() {
           enhancing the capability of bulk data mutation.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
           Wisely Using Reusable Functions
         </p>
         <p className="indent-5 text-justify">
@@ -141,7 +145,7 @@ export default function Blog() {
           approach to getting the job done efficiently.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
           Minimizing Package Dependencies
         </p>
         <p className="indent-5 text-justify">
@@ -169,7 +173,7 @@ export default function Blog() {
           the wheel may not be necessary. Prioritizing core business needs and
           client requirements remains the primary strategy for project survival.
         </p>
-        <p className="text-xl font-medium pt-3 pb-1">
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
           Reordering Code Execution Sequence
         </p>
         <p className="indent-5 text-justify">
@@ -196,7 +200,9 @@ export default function Blog() {
           easier to reorder code execution without worrying about the impact on
           your data.
         </p>
-        <p className="text-xl font-medium pt-3 pb-1">Conclusion</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Conclusion
+        </p>
         <p className="indent-5 text-justify">
           In this modern era, creating a stable, reliable, and robust
           application is more crucial than ever before. Many individuals and
@@ -207,7 +213,7 @@ export default function Blog() {
           make your code less robust, unscalable, and difficult to maintain.
         </p>
         <hr className="h-px my-2 bg-gray-300 border-0 mt-5" />
-        <p className="text-xl font-medium  pb-1">References:</p>
+        <p className="text-xl font-medium  pb-1 text-teal-600">References:</p>
         <ul className="list-decimal ml-5">
           <li>
             &ldquo;Data Structure Definition&ldquo; - TechTarget. Available at{" "}

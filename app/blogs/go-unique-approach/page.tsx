@@ -38,7 +38,9 @@ export default function Blog() {
           make it unique from another programing language.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Simple and Minimalistic</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Simple and Minimalistic
+        </p>
         <p className="indent-5 text-justify">
           Go is known for having the least syntax among popular programming
           languages. Its syntax is minimalistic and straightforward. For
@@ -60,7 +62,9 @@ export default function Blog() {
           intuitive.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Performance</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Performance
+        </p>
         <p className="indent-5 text-justify">
           Go introduces Goroutines, a concurrency pattern that allows us to
           write programs that run concurrently, leveraging all CPU resources to
@@ -82,7 +86,7 @@ export default function Blog() {
           aiding in identifying mutable states.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
           Full Featured Standard Library
         </p>
         <p className="indent-5 text-justify">
@@ -110,7 +114,9 @@ export default function Blog() {
           framework, it can become stressful and time-consuming.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Robust Error Handling</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Robust Error Handling
+        </p>
         <p className="indent-5 text-justify">
           Error handling is often a point of contention in the Go language,
           which has a unique approach compared to other languages. Go&apos;s
@@ -138,7 +144,9 @@ export default function Blog() {
           statement which typically requires at least three lines to complete.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Widely Adopted</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Widely Adopted
+        </p>
         <p className="indent-5 text-justify">
           Low-level languages like C, C++, and Rust are versatile and capable of
           developing software for various purposes. However, it&apos;s uncommon
@@ -162,7 +170,9 @@ export default function Blog() {
           Lambda, alleviating concerns about deployment compatibility.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Strict Typing</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Strict Typing
+        </p>
         <p className="indent-5 text-justify">
           Type safety stands out as one of Go&apos;s strongest points. Go&apos;s
           approach to type safety is not overly complex but remains very useful
@@ -187,7 +197,9 @@ export default function Blog() {
           this issues.
         </p>
 
-        <p className="text-xl font-medium pt-3 pb-1">Conclusion</p>
+        <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
+          Conclusion
+        </p>
         <p className="indent-5 text-justify">
           Type safety stands out as one of Go&apos;s strongest points. Go&apos;s
           approach to type safety is not overly complex but remains very useful
@@ -212,7 +224,7 @@ export default function Blog() {
           this issues.
         </p>
         <hr className="h-px my-2 bg-gray-300 border-0 mt-5" />
-        <p className="text-xl font-medium  pb-1">References:</p>
+        <p className="text-xl font-medium  pb-1 text-teal-600">References:</p>
         <ul className="list-decimal ml-5">
           <li>
             &ldquo;Go Programming Language (Introduction)&ldquo; - geeksforgeeks
