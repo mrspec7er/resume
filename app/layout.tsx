@@ -24,7 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="images/favicon.ico" sizes="any" />
+      <head>
+        <link rel="icon" href="images/favicon.ico" sizes="any" />
+        <meta
+          name="google-site-verification"
+          content="HLwj6uEw-QOb-ZyoI9hcYm4q3O_2RlbPFAJLoBmWt8M"
+        />
+      </head>
       <body className={inter.className + " bg-zinc-900 text-gray-200"}>
         {children}
       </body>
