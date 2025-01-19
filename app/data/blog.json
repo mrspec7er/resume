@@ -2,7 +2,7 @@
   {
     "id": "ensuring-your-app-robustness",
     "title": "Ensuring Your App's Robustness",
-    "desc": "We've entered an era where software can be immensely critical, often forming the backbone of vast business processes. Nowadays, many individuals rely on apps for their livelihoods. Developing a robust app capable...",
+    "desc": "We've entered an era where software can be immensely critical, often forming the backbone of vast business processes. Nowadays, many individuals rely on apps for their livelihoods. Developing a robust app capable of handling a substantial volume of requests, seamlessly integrating new features, and maintaining stability for continuous 24/7 use has become more crucial than ever before. Fortunately, numerous tools are available to help address this challenge. However, before introducing further complexity to your code base, it's essential to consider a few tips to maximize your app's utility in meeting the demands..",
     "publishAt": "May 5, 2024",
     "keyword": ["optimization", "performance", "efficiency"],
     "url": "/blogs/ensuring-your-app-robustness"
@@ -10,7 +10,7 @@
   {
     "id": "go-unique-approach",
     "title": "Exploring the Unique Approach of Go Programming Language",
-    "desc": "Go, a programming language crafted by Google, stands as a testament to the pursuit of enhanced productivity and seamless collaboration in software development. Its inception was driven by the imperative to accelerate...",
+    "desc": "Go, a programming language crafted by Google, stands as a testament to the pursuit of enhanced productivity and seamless collaboration in software development. Its inception was driven by the imperative to accelerate development velocity while fostering a culture of cooperation among developers. However, Go has combination of efficiency with remarkable performance, scalability, and an intuitive approach to low-level concepts. Herein a closer look at Go approach to make it unique from another..",
     "publishAt": "Mar 29, 2024",
     "keyword": ["go", "concurrency", "programming"],
     "url": "/blogs/go-unique-approach"

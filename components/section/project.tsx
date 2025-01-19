@@ -1,21 +1,21 @@
-"use client";
-import { FiExternalLink } from "react-icons/fi";
-import projects from "@/app/data/projects.json";
-import { Variants, motion } from "framer-motion";
-import Link from "next/link";
+'use client';
+import { FiExternalLink } from 'react-icons/fi';
+import projects from '@/app/data/projects.json';
+import { Variants, motion } from 'framer-motion';
+import Link from 'next/link';
 
 export function Projects() {
   const cardVariants: Variants = {
     offscreen: {
-      x: -300,
+      x: -200,
       opacity: 0,
     },
     onscreen: {
       x: 0,
       opacity: 1,
       transition: {
-        type: "spring",
-        bounce: 0.7,
+        type: 'spring',
+        bounce: 0.3,
         duration: 3,
         delay: 0.5,
       },

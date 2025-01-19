@@ -6,7 +6,7 @@ import Link from "next/link";
 export function Blog() {
   const cardVariants: Variants = {
     offscreen: {
-      x: -300,
+      x: -200,
       opacity: 0,
     },
     onscreen: {
@@ -14,7 +14,7 @@ export function Blog() {
       opacity: 1,
       transition: {
         type: "spring",
-        bounce: 0.7,
+        bounce: 0.3,
         duration: 3,
         delay: 0.5,
       },
