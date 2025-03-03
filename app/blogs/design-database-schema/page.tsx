@@ -29,10 +29,11 @@ export default function Blog() {
           Since nearly every major application in the world depends on how data
           is stored and managed, understanding database design is crucial. In
           this article, we&apos;ll explore best practices for designing a robust
-          database schema. As Linus Torvalds once said, "Bad programmers worry
-          about the code. Good programmers worry about data structures and their
-          relationships." This guide will help you think beyond code and focus
-          on structuring your data effectively to build better software systems.
+          database schema. As Linus Torvalds once said, &quot;Bad programmers
+          worry about the code. Good programmers worry about data structures and
+          their relationships.&quot; This guide will help you think beyond code
+          and focus on structuring your data effectively to build better
+          software systems.
         </p>
 
         <p className="text-xl font-medium pt-3 pb-1 text-teal-600">
@@ -135,8 +136,8 @@ export default function Blog() {
           The sooner you identify and resolve these problems, the better.
           I&apos;ve personally encountered many of these issues especially in
           teams that don&apos;t conduct regular code reviews. Without proper
-          feedback, it's easy to miss flaws that could become costly in the long
-          run. This is why attention to detail and insights from others are
+          feedback, it&apos;s easy to miss flaws that could become costly in the
+          long run. This is why attention to detail and insights from others are
           invaluable in database design. People often make mistakes simply
           because they aren&apos;t aware of the issue in the first place.
           That&apos;s why continuously practicing, improving, and seeking
