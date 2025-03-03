@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Envirosense",
+    "url": "https://github.com/mrspec7er/envirosense",
+    "desc": "Envirosense is a real-time environmental monitoring app that provides detailed insights into air quality and environmental conditions for a specific area. The app tracks essential metrics such as carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2) levels, dust particles, humidity, temperature, and road density. Designed to promote awareness and enable data-driven decision-making, Envirosense empowers users to monitor and respond to environmental conditions effectively.Envirosense is a real-time environmental monitoring app that provides detailed insights into air quality and environmental conditions for a specific area. The app tracks essential metrics such as carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2) levels, dust particles, humidity, temperature, and road density. Designed to promote awareness and enable data-driven decision-making, Envirosense empowers users to monitor and respond to environmental conditions effectively.",
+    "techStack": [
+      {
+        "name": "Go",
+        "url": "https://go.dev/"
+      },
+      {
+        "name": "MQTT",
+        "url": "https://mqtt.org/"
+      },
+      {
+        "name": "RabbitMQ",
+        "url": "https://www.rabbitmq.com/"
+      },
+      {
+        "name": "Redis",
+        "url": "https://redis.io/"
+      },
+      {
+        "name": "Open Weather",
+        "url": "https://openweathermap.org/"
+      },
+      {
+        "name": "Docker",
+        "url": "https://www.docker.com/"
+      }
+    ]
+  },
+  {
+    "name": "Prohita",
+    "url": "https://prohita.com/",
+    "desc": "Prohita, a comprehensive app designed to streamline client data management for law firms. With its intuitive interface and robust functionality, Prohita simplifies the process of organizing client information, ensuring efficiency, and managing notification for a legal practice. Prohita revolutionizes the way law firms manage client data, empowering legal professionals to focus on what they do best—delivering exceptional legal services.",
+    "techStack": [
+      {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "Prisma",
+        "url": "https://www.prisma.io/"
+      },
+      {
+        "name": "React",
+        "url": "https://react.dev/"
+      },
+      {
+        "name": "Flowbite",
+        "url": "https://flowbite.com/"
+      },
+      {
+        "name": "Quill",
+        "url": "https://quilljs.com/"
+      },
+      {
+        "name": "Tailwind",
+        "url": "https://tailwindcss.com/"
+      }
+    ]
+  }
+]

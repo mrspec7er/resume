@@ -86,12 +86,9 @@ export function Introduction() {
             When I&apos;m not coding, you&apos;ll probably find me exploring new
             tools, reading books, or learning something new to sharpen my
             skills. I believe in staying curious and embracing continuous
-            growth.{' '}
-          </p>
-          <p className="pt-2 text-justify indent-5">
-            Feel free to explore my site to learn more about my work, the
-            projects I&apos;ve been part of, and what I&apos;m up to next. And
-            if you think we&apos;d make a great team or just want to say hi,
+            growth. Feel free to explore my site to learn more about my work,
+            the projects I&apos;ve been part of, and what I&apos;m up to next.
+            And if you think we&apos;d make a great team or just want to say hi,
             don&apos;t hesitate to reach out!. Let&apos;s build something
             awesome together. 🚀
           </p>

@@ -1,63 +1,28 @@
 [
   {
-    "name": "Envirosense",
-    "url": "https://github.com/mrspec7er/envirosense",
-    "desc": "Envirosense is a real-time environmental monitoring app that provides detailed insights into air quality and environmental conditions for a specific area. The app tracks essential metrics such as carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2) levels, dust particles, humidity, temperature, and road density. Designed to promote awareness and enable data-driven decision-making, Envirosense empowers users to monitor and respond to environmental conditions effectively.Envirosense is a real-time environmental monitoring app that provides detailed insights into air quality and environmental conditions for a specific area. The app tracks essential metrics such as carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2) levels, dust particles, humidity, temperature, and road density. Designed to promote awareness and enable data-driven decision-making, Envirosense empowers users to monitor and respond to environmental conditions effectively.",
+    "name": "Quickbill",
+    "url": "https://github.com/mrspec7er/quickbill",
+    "desc": "Quickbill is a streamlined subscription payment platform designed for local businesses to manage recurring payments for utilities like water and electricity. The app integrates seamlessly with local payment providers, offering a user-friendly interface and efficient payment processes. Quickbill aims to simplify billing management while enhancing convenience for both businesses and their customers",
     "techStack": [
       {
         "name": "Go",
         "url": "https://go.dev/"
       },
       {
-        "name": "MQTT",
-        "url": "https://mqtt.org/"
-      },
-      {
-        "name": "RabbitMQ",
-        "url": "https://www.rabbitmq.com/"
-      },
-      {
         "name": "Redis",
         "url": "https://redis.io/"
       },
       {
-        "name": "Open Weather",
-        "url": "https://openweathermap.org/"
-      },
-      {
         "name": "Docker",
         "url": "https://www.docker.com/"
-      }
-    ]
-  },
-  {
-    "name": "Bricks",
-    "url": "https://www.bricksapp.io/",
-    "desc": "Bricks app is the agile collaborative app designed specifically for the Architecture, Engineering, and Construction industry. It helps AEC teams to collaborate more efficiently thanks to BIM collaboration and Agile methods. What makes Bricks different from other project management app is its integration with BIM360, IFC model file, BCF, and other BIM integrations.",
-    "techStack": [
-      {
-        "name": "Typescript",
-        "url": "https://www.typescriptlang.org/"
       },
       {
-        "name": "NestJS",
-        "url": "https://nestjs.com/"
+        "name": "Midtrans",
+        "url": "https://midtrans.com/en"
       },
       {
-        "name": "Angular",
-        "url": "https://angular.io/"
-      },
-      {
-        "name": "Stripe",
-        "url": "https://stripe.com/payments"
-      },
-      {
-        "name": "MongoDB",
-        "url": "https://www.mongodb.com/"
-      },
-      {
-        "name": "GraphQL",
-        "url": "https://graphql.org/"
+        "name": "Modular Architecture",
+        "url": "https://spryker.com/glossary/modular-architecture/#:~:text=Modular%20architecture%2C%20or%20modularity%2C%20refers,component%20can%20perform%20multiple%20tasks."
       }
     ]
   },
@@ -92,61 +57,35 @@
       }
     ]
   },
+
   {
-    "name": "Prohita",
-    "url": "https://prohita.com/",
-    "desc": "Prohita, a comprehensive app designed to streamline client data management for law firms. With its intuitive interface and robust functionality, Prohita simplifies the process of organizing client information, ensuring efficiency, and managing notification for a legal practice. Prohita revolutionizes the way law firms manage client data, empowering legal professionals to focus on what they do best—delivering exceptional legal services.",
+    "name": "Bricks",
+    "url": "https://www.bricksapp.io/",
+    "desc": "Bricks app is the agile collaborative app designed specifically for the Architecture, Engineering, and Construction industry. It helps AEC teams to collaborate more efficiently thanks to BIM collaboration and Agile methods. What makes Bricks different from other project management app is its integration with BIM360, IFC model file, BCF, and other BIM integrations.",
     "techStack": [
       {
         "name": "Typescript",
         "url": "https://www.typescriptlang.org/"
       },
       {
-        "name": "Prisma",
-        "url": "https://www.prisma.io/"
+        "name": "NestJS",
+        "url": "https://nestjs.com/"
       },
       {
-        "name": "React",
-        "url": "https://react.dev/"
+        "name": "Angular",
+        "url": "https://angular.io/"
       },
       {
-        "name": "Flowbite",
-        "url": "https://flowbite.com/"
+        "name": "Stripe",
+        "url": "https://stripe.com/payments"
       },
       {
-        "name": "Quill",
-        "url": "https://quilljs.com/"
+        "name": "MongoDB",
+        "url": "https://www.mongodb.com/"
       },
       {
-        "name": "Tailwind",
-        "url": "https://tailwindcss.com/"
-      }
-    ]
-  },
-  {
-    "name": "Quickbill",
-    "url": "https://github.com/mrspec7er/quickbill",
-    "desc": "Quickbill is a streamlined subscription payment platform designed for local businesses to manage recurring payments for utilities like water and electricity. The app integrates seamlessly with local payment providers, offering a user-friendly interface and efficient payment processes. Quickbill aims to simplify billing management while enhancing convenience for both businesses and their customers",
-    "techStack": [
-      {
-        "name": "Go",
-        "url": "https://go.dev/"
-      },
-      {
-        "name": "Redis",
-        "url": "https://redis.io/"
-      },
-      {
-        "name": "Docker",
-        "url": "https://www.docker.com/"
-      },
-      {
-        "name": "Midtrans",
-        "url": "https://midtrans.com/en"
-      },
-      {
-        "name": "Modular Architecture",
-        "url": "https://spryker.com/glossary/modular-architecture/#:~:text=Modular%20architecture%2C%20or%20modularity%2C%20refers,component%20can%20perform%20multiple%20tasks."
+        "name": "GraphQL",
+        "url": "https://graphql.org/"
       }
     ]
   }
