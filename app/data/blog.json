@@ -1,5 +1,13 @@
 [
   {
+    "id": "design-database-schema",
+    "title": "How to Design an Effective Database Schema",
+    "desc": "A well-structured database schema is one of the most critical aspects that every software engineer must master whether you're a backend, frontend, or mobile developer. The way you design your database schema directly impacts how your application implements business logic, ensuring efficiency, scalability, and...",
+    "publishAt": "Mar 3, 2025",
+    "keyword": ["database schema", "query", "sql"],
+    "url": "/blogs/design-database-schema"
+  },
+  {
     "id": "ensuring-your-app-robustness",
     "title": "Ensuring Your App's Robustness",
     "desc": "We've entered an era where software can be immensely critical, often forming the backbone of vast business processes. Nowadays, many individuals rely on apps for their livelihoods. Developing a robust app capable of handling a substantial volume of requests, seamlessly integrating new features, and maintaining stability for continuous 24/7 use has become more crucial than ever before. Fortunately, numerous tools are available to help address this challenge. However, before introducing further complexity to your code base, it's essential to consider a few tips to maximize your app's utility in meeting the demands..",
